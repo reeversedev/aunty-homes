@@ -2,6 +2,8 @@ var express = require('express');
 var router = express.Router();
 var Contact = require('../models/contact');
 var nodemailer = require('nodemailer');
+var path =  require('path');
+
 
 router.get('/', function (req, res, next) {
     res.render('front/index', {
@@ -21,7 +23,7 @@ router.get('/blog', function (req, res, next) {
     res.render('blog/index');
 });
 router.get('/sitemap', function (req, res, next) {
-    res.sendFile(__dirname + '/sitemap/sitemap.xml');
+    res.sendFile(path.resolve('./sitemap/sitemap.xml'));
 });
 router.post('/contact', function (req, res) {
     var contact = new Contact({
