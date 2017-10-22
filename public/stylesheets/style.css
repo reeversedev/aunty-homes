@@ -1,0 +1,104 @@
+.nav-wrapper {
+    background-color: #090977;
+}
+.card-content span {
+    font-weight: bold;
+}
+.page-footer {
+    background-color: #090977;
+}
+.footer-copyright .material-icons {
+    color: crimson;
+}
+.facilities {
+    padding-top: 15px;
+}
+#facilities {
+    background-color: #090977;
+    color: white;
+}
+.red-color{
+    color: red;
+}
+.golden {
+    color: gold;
+}
+#map {
+    margin-top: 30px;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.facility-icon {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#icons {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#icon-money {
+    text-shadow: rgb(179, 145, 34) 0px 0px 0px, rgb(181, 147, 34) 1px 1px 0px, rgb(183, 148, 34) 2px 2px 0px, rgb(185, 150, 35) 3px 3px 0px, rgb(187, 152, 35) 4px 4px 0px, rgb(189, 154, 36) 5px 5px 0px, rgb(192, 156, 36) 6px 6px 0px, rgb(194, 157, 36) 7px 7px 0px, rgb(196, 159, 37) 8px 8px 0px, rgb(198, 161, 37) 9px 9px 0px, rgb(200, 163, 38) 10px 10px 0px, rgb(203, 164, 38) 11px 11px 0px, rgb(205, 166, 39) 12px 12px 0px, rgb(207, 168, 39) 13px 13px 0px, rgb(209, 170, 39) 14px 14px 0px, rgb(211, 172, 40) 15px 15px 0px, rgb(213, 173, 40) 16px 16px 0px, rgb(216, 175, 41) 17px 17px 0px, rgb(218, 177, 41) 18px 18px 0px, rgb(220, 179, 41) 19px 19px 0px, rgb(222, 180, 42) 20px 20px 0px, rgb(224, 182, 42) 21px 21px 0px, rgb(227, 184, 43) 22px 22px 0px, rgb(229, 186, 43) 23px 23px 0px, rgb(231, 187, 43) 24px 24px 0px, rgb(233, 189, 44) 25px 25px 0px, rgb(235, 191, 44) 26px 26px 0px, rgb(238, 193, 45) 27px 27px 0px, rgb(240, 195, 45) 28px 28px 0px, rgb(242, 196, 46) 29px 29px 0px, rgb(244, 198, 46) 30px 30px 0px, rgb(246, 200, 46) 31px 31px 0px, rgb(248, 202, 47) 32px 32px 0px, rgb(251, 203, 47) 33px 33px 0px, rgb(253, 205, 48) 34px 34px 0px;
+    font-size: 130px;
+    color: rgb(255, 255, 255); 
+    height: 180px; 
+    width: 300px; 
+    line-height: 150px; 
+    border-radius: 0%; 
+    text-align: center; 
+    background-color: rgb(255, 207, 48);
+    /* margin-left: 20px;
+    margin-top: 20px; */
+}
+#icon-subway {
+    text-shadow: rgb(46, 117, 179) 0px 0px 0px, rgb(47, 119, 181) 1px 1px 0px, rgb(48, 120, 184) 2px 2px 0px, rgb(48, 122, 186) 3px 3px 0px, rgb(49, 124, 189) 4px 4px 0px, rgb(50, 125, 191) 5px 5px 0px, rgb(50, 127, 194) 6px 6px 0px, rgb(51, 129, 196) 7px 7px 0px, rgb(51, 130, 199) 8px 8px 0px, rgb(52, 132, 201) 9px 9px 0px, rgb(53, 134, 204) 10px 10px 0px, rgb(53, 135, 207) 11px 11px 0px, rgb(54, 137, 209) 12px 12px 0px, rgb(55, 139, 212) 13px 13px 0px, rgb(55, 140, 214) 14px 14px 0px, rgb(56, 142, 217) 15px 15px 0px, rgb(57, 144, 219) 16px 16px 0px, rgb(57, 145, 222) 17px 17px 0px, rgb(58, 147, 224) 18px 18px 0px, rgb(59, 149, 227) 19px 19px 0px, rgb(59, 150, 230) 20px 20px 0px, rgb(60, 152, 232) 21px 21px 0px, rgb(61, 154, 235) 22px 22px 0px, rgb(61, 155, 237) 23px 23px 0px, rgb(62, 157, 240) 24px 24px 0px, rgb(63, 159, 242) 25px 25px 0px, rgb(63, 160, 245) 26px 26px 0px, rgb(64, 162, 247) 27px 27px 0px, rgb(65, 164, 250) 28px 28px 0px, rgb(65, 165, 252) 29px 29px 0px;
+    font-size: 140px; 
+    color: rgb(255, 255, 255); 
+    height: 280px;
+    width: 300px; 
+    line-height: 225px; 
+    border-radius: 0%; 
+    text-align: center; 
+    background-color: rgb(66, 167, 255);
+    margin-top: 60px;
+}
+.username {
+    font-weight: bold;
+    color: white;
+}
+#icon-university {
+    text-shadow: rgb(179, 67, 45) 0px 0px 0px, rgb(181, 68, 45) 1px 1px 0px, rgb(184, 69, 46) 2px 2px 0px, rgb(186, 70, 47) 3px 3px 0px, rgb(189, 71, 47) 4px 4px 0px, rgb(191, 72, 48) 5px 5px 0px, rgb(194, 73, 49) 6px 6px 0px, rgb(196, 74, 49) 7px 7px 0px, rgb(199, 75, 50) 8px 8px 0px, rgb(201, 76, 51) 9px 9px 0px, rgb(204, 77, 51) 10px 10px 0px, rgb(207, 78, 52) 11px 11px 0px, rgb(209, 79, 52) 12px 12px 0px, rgb(212, 80, 53) 13px 13px 0px, rgb(214, 81, 54) 14px 14px 0px, rgb(217, 82, 54) 15px 15px 0px, rgb(219, 83, 55) 16px 16px 0px, rgb(222, 84, 56) 17px 17px 0px, rgb(224, 84, 56) 18px 18px 0px, rgb(227, 85, 57) 19px 19px 0px, rgb(230, 86, 58) 20px 20px 0px, rgb(232, 87, 58) 21px 21px 0px, rgb(235, 88, 59) 22px 22px 0px, rgb(237, 89, 60) 23px 23px 0px, rgb(240, 90, 60) 24px 24px 0px, rgb(242, 91, 61) 25px 25px 0px, rgb(245, 92, 61) 26px 26px 0px, rgb(247, 93, 62) 27px 27px 0px, rgb(250, 94, 63) 28px 28px 0px, rgb(252, 95, 63) 29px 29px 0px;
+    font-size: 150px; 
+    color: rgb(255, 255, 255); 
+    height: 250px; 
+    width: 300px; 
+    line-height: 225px; 
+    border-radius: 0%; 
+    text-align: center; 
+    background-color: rgb(255, 96, 64);
+    /* margin-top: 60px;
+    margin-left: 40px; */
+}
+.brand-logo {
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+.carousel-heading {
+   font-family: 'Bree Serif', serif;
+}
+.carousel-description {
+    font-size: 28px!important;
+    font-family: 'Acme', sans-serif;
+}
+@media (min-width: 300px) and (max-width: 600px) {
+    #map {
+        width: 100%;
+    }
+    #facilities {
+        padding-top: 25px;
+    }
+    .blog-gif {
+        width: 320px;
+    }
+}
