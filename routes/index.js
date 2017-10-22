@@ -20,8 +20,8 @@ router.get('/about', function (req, res, next) {
 router.get('/blog', function (req, res, next) {
     res.render('blog/index');
 });
-router.get('/site', function (req, res, next) {
-    res.download('site/sitemap.xml');
+router.get('/sitemap', function (req, res, next) {
+    res.sendFile(__dirname + '/sitemap/sitemap.xml');
 });
 router.post('/contact', function (req, res) {
     var contact = new Contact({
